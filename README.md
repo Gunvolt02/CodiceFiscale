@@ -1,7 +1,7 @@
 # CodiceFiscale
 
 [![NuGet](https://img.shields.io/nuget/v/CodiceFiscale.svg)](https://www.nuget.org/packages/CodiceFiscale/)
-<!-- [![Build Status](https://github.com/yourusername/CodiceFiscale/workflows/Build/badge.svg)](https://github.com/yourusername/CodiceFiscale/actions) -->
+[![Build Status](https://github.com/lorenzomaiuri-dev/CodiceFiscale/actions/workflows/dotnet.yml/badge.svg)](https://github.com/lorenzomaiuri-dev/CodiceFiscale/actions/workflows/dotnet.yml/badge.svg)
 
 A .NET Core library to calculate and validate the Italian Tax Code (Codice Fiscale)
 
@@ -47,7 +47,8 @@ Here’s a few examples of how to use the library:
 ```csharp
 using CodiceFiscaleLib.Helpers;
 
-string result = EncodingHelper.Encode("Rossi", "Mario", 'M', new DateTime (1980, 5, 20), "Milano");
+string result = 
+.Encode("Rossi", "Mario", 'M', new DateTime (1980, 5, 20), "Milano");
 
 Console.WriteLine($"Generated Codice Fiscale: {result}");
 ```
