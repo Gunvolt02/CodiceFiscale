@@ -30,7 +30,7 @@ dotnet add package CodiceFiscale --version X.X.X
 Or by adding the following to your .csproj:
 
 ```
-<PackageReference Include="CodiceFiscale" Version="1.0.0" />
+<PackageReference Include="CodiceFiscale" Version="X.X.X" />
 ```
 
 Once installed, restore the packages:
