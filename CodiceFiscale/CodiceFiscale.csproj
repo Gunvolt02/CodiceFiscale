@@ -14,6 +14,8 @@
         A comprehensive library for handling the Italian Tax Code (Codice Fiscale). This package allows encoding, decoding, and validation of Codice Fiscale, including support for omocode resolution. Ideal for developers working with Italian identification systems and tax code management.
     </Description>
     <PackageTags>codice-fiscale; codice_fiscale; Codice Fiscale; Italian Tax Code; Italy; validation; omocode</PackageTags>
+    <PackageLicenseFile>../LICENSE</PackageLicenseFile>
+    <PackageReadmeFile>../README.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/lorenzomaiuri-dev/CodiceFiscale</RepositoryUrl>
   </PropertyGroup>
 
